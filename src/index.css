@@ -1,0 +1,150 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://cdn.wallpapersafari.com/26/53/9xLy1r.jpg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h3{
+  color: white;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #CE1F6A;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #CEE5D0;
+  color: black;
+}
+.css-button {
+	font-family: Arial;
+	font-weight: bold;
+	color: #161616;
+	font-size: 10px;
+	border-radius: 5px;
+	border: 1px #39A388 solid;
+	padding: 13px 15px 15px;
+	background: linear-gradient(180deg, #dB1E693 5%, #80ED99 87%);
+	text-shadow: 1px 1px 1px #6ECB63;
+	box-shadow: inset 2px 3px 2px 1px rgba(250, 179, 173, 0.54);
+	cursor: pointer;
+	display: inline-flex;
+	align-items: right;
+  margin-top: 5px;
+}
+.css-button:hover {
+	background: linear-gradient(180deg, #80ED99 5%, #B1E693 87%);
+}
+.topnav-right
+{ margin-right: 15px;
+  float: right;
+}
+.heading
+{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+.click
+{
+  color:#DEFF8B;
+}
+.click:hover
+{
+  color:#E7D9EA;
+}
+.lists
+{ padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 10px;
+ display:grid;
+ grid-template-columns: 25% 25% 25% 25%;
+}
+.image
+{
+  border-radius: 100%;
+  height: 200px;
+  width: 180px;
+  border: 6px solid;
+  border-color: #E9B0DF;
+}
+.Loader{
+  border: 5px solid black;
+  border-top: 5px solid grey;
+  border-radius: 50%;
+  background-color: black;
+  width: 50px;
+  height:50px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  animation: spin 1s linear infinite;
+}
+.lis
+{
+  border: 3px solid #88E0EF;
+  margin: 10px;
+  padding: 3px;
+  color: white;
+  background-image: linear-gradient(to bottom,grey,black);
+  text-align: center;
+}
+.lis:hover
+{
+  transition-duration: 0.5s;
+  color: black;
+  background-image: linear-gradient(to bottom,black,grey);
+  box-shadow: 5px 5px 5px -1px grey;
+  transform: scale(1.1);
+
+}
+@keyframes spin
+{
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  25%
+  {
+    transform: rotate(90deg);
+  }
+  50%
+  {
+    transform: rotate(180deg);
+  }
+  75%
+  {
+    transform: rotate(270deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
